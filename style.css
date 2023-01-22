@@ -1,0 +1,60 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.6rem;
+  line-height: 1.7;
+}
+
+.section__flipper {
+  background-color: #42855b;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.flipper {
+  text-align: center;
+}
+
+.flipper h1 {
+  background-color: #333;
+  color: #fff;
+  padding: 1rem 2.5rem;
+  font-size: 4rem;
+  border-radius: 0.5rem;
+}
+
+.flipper h1 span {
+  color: #42855b;
+}
+
+.btn {
+  display: inline-block;
+  background: none;
+  border: 2px solid #333;
+  transition: all 0.3s ease;
+  color: #333;
+  padding: 0.7rem 2rem;
+  font-size: 1.8rem;
+  margin-top: 3rem;
+  border-radius: 0.5rem;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background: #333;
+  color: #fff;
+}
